@@ -59,4 +59,4 @@ Kopioin tiedoston kahdeksi uudeksi tiedostoksi ohjeen mukaan.
 ### Verkkokortti
 10.208.0.1
 
-### Template Admin tunnukset asetettu ohjeen mukaan.
+### Template Admin tunnukset asetettu ohjeen mukaan

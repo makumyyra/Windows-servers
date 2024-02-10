@@ -29,9 +29,11 @@ En tiennyt, missä vika oli, joten aloin käydä asennusohjeita läpi uudelleen.
 ![ip](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ip.png)
 
 Näiden jälkeen verkkoyhteys toimi odotetusti. 
+
 ![ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/verkkoyhteys_ok.JPG)
 
 Asetin seuraavaksi lukitusnäytön pois päältä, mutta jostain syystä kone kysyy sitä edelleen. Ongelma ei kuitenkaan ole iso, joten siirryin ohjeissa eteenpäin.
+
 ![lockscreen](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/lockscreen.JPG)
 
 Seuraavaksi yritin aktivoida ohjauspalvelimen käyttöjärjestelmän uudestaan. Tällä kertaa kms:n määritys ja aktivointi onnistuivat.
@@ -42,7 +44,7 @@ Seuraavaksi yritin aktivoida ohjauspalvelimen käyttöjärjestelmän uudestaan. 
 ## Ohjauspalvelimen AD DS (Active Directory Domain Services) -ohjelmiston lisäys ja roolin määritys
 
 Lisäys suoritettu ohjeiden mukaan Server Managerin Wizardin avulla. Wizardiin syötettiin ohjeessa mainitut tiedot. Tämän jälkeen palvelin alkoi asentaa AD DS -roolia. 
-![adds-role](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/adds_install.jpg)
+![adds-role](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/adds_install.JPG)
 
 AD DS -ohjelmiston asentamisen jälkeen virtuaalikone piti vielä korottaa ohjauspalvelimen rooliin. Tämä tehtiin myös Wizardin avustuksella (Server Manager --> All Servers Task Details --> Promote this server to a domain controller). Toimialueen määrittelyssä valitsin add a new forest. Salasanan asetin ohjeen mukaan. Wizardin käytön loputtua kone käynnistyi uudelleen.
 

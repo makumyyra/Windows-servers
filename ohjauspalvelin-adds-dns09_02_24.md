@@ -22,21 +22,21 @@ Yritin tarkistaa osoitetta komennolla
 
 Tästä seurasi virheviesti "Unknown can't find kms.core.windows.net: No response from server"
 
-![no-response](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/no-response.JPG)
+![no-response](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/no-response.png)
 
 En tiennyt, missä vika oli, joten aloin käydä asennusohjeita läpi uudelleen. Huomasin, että olin vahingossa unohtanut määrittää staattisen IP-osoitteen. Kävin asettamassa sen. Samalla asetin koneen verkon yksityiseksi. IP-osoite määriteltiin Server Managerin kautta (Local Server --> Ethernet --> Properties --> IPv4 / Properties).
 
 ![ip](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ip.png)
 
 Näiden jälkeen verkkoyhteys toimi odotetusti. 
-![ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/verkkoyhteys_ok.jpg)
+![ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/verkkoyhteys_ok.JPG)
 
 Asetin seuraavaksi lukitusnäytön pois päältä, mutta jostain syystä kone kysyy sitä edelleen. Ongelma ei kuitenkaan ole iso, joten siirryin ohjeissa eteenpäin.
-![lockscreen](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/lockscreen.jpg)
+![lockscreen](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/lockscreen.JPG)
 
 Seuraavaksi yritin aktivoida ohjauspalvelimen käyttöjärjestelmän uudestaan. Tällä kertaa kms:n määritys ja aktivointi onnistuivat.
-![kms-ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/kms_ok.jpg)
-![aktivointi-ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/winss.jpg)
+![kms-ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/kms_ok.JPG)
+![aktivointi-ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/winss.JPG)
 
 
 ## Ohjauspalvelimen AD DS (Active Directory Domain Services) -ohjelmiston lisäys ja roolin määritys

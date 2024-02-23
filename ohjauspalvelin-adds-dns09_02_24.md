@@ -22,30 +22,30 @@ Yritin tarkistaa osoitetta komennolla
 
 Tästä seurasi virheviesti "Unknown can't find kms.core.windows.net: No response from server"
 
-![no-response](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/no-response.png)
+![no-response](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ohjauspalvelin/no-response.png)
 
 En tiennyt, missä vika oli, joten aloin käydä asennusohjeita läpi uudelleen. Huomasin, että olin vahingossa unohtanut määrittää staattisen IP-osoitteen. Kävin asettamassa sen. Samalla asetin koneen verkon yksityiseksi. IP-osoite määriteltiin Server Managerin kautta (Local Server --> Ethernet --> Properties --> IPv4 / Properties).
 
-![ip](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ip.png)
+![ip](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ohjauspalvelin/ip.png)
 
 Näiden jälkeen verkkoyhteys toimi odotetusti. 
 
-![ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/verkkoyhteys_ok.JPG)
+![ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ohjauspalvelin/verkkoyhteys_ok.JPG)
 
 Asetin seuraavaksi lukitusnäytön pois päältä, mutta jostain syystä kone kysyy sitä edelleen. Ongelma ei kuitenkaan ole iso, joten siirryin ohjeissa eteenpäin.
 
-![lockscreen](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/lockscreen.JPG)
+![lockscreen](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ohjauspalvelin/lockscreen.JPG)
 
 Seuraavaksi yritin aktivoida ohjauspalvelimen käyttöjärjestelmän uudestaan. Tällä kertaa kms:n määritys ja aktivointi onnistuivat.
-![kms-ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/kms_ok.JPG)
-![aktivointi-ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/winss.JPG)
+![kms-ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ohjauspalvelin/kms_ok.JPG)
+![aktivointi-ok](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ohjauspalvelin/winss.JPG)
 
 
 ## Ohjauspalvelimen AD DS (Active Directory Domain Services) -ohjelmiston lisäys ja roolin määritys
 
 Lisäys suoritettu ohjeiden mukaan Server Managerin Wizardin avulla. Wizardiin syötettiin ohjeessa mainitut tiedot. Tämän jälkeen palvelin alkoi asentaa AD DS -roolia. 
 
-![adds-role](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/adds_install.JPG)
+![adds-role](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ohjauspalvelin/adds_install.JPG)
 
 AD DS -ohjelmiston asentamisen jälkeen virtuaalikone piti vielä korottaa ohjauspalvelimen rooliin. Tämä tehtiin myös Wizardin avustuksella (Server Manager --> All Servers Task Details --> Promote this server to a domain controller). Toimialueen määrittelyssä valitsin add a new forest. Salasanan asetin ohjeen mukaan. Wizardin käytön loputtua kone käynnistyi uudelleen.
 

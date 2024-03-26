@@ -13,15 +13,17 @@ Toimialueen ohjauspalvelin oli tietenkin Controller-Sammakkosuo:
 ![image](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ryhmakaytannot2/dcselection.JPG)
 
 "User and Computer Selection"-ikkunassa valittiin, mihin "käyttäjään" (organisaatioyksikkö) ja tietokoneeseen mallinnus kohdistuu. Kohde valittiin selaamalla hakupuuta.
+
 ![image](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ryhmakaytannot2/gpwizard_ldap.JPG)
 
 User Security Groups sekä Computer Security Groups -ikkunoiden valinnaksi laitettiin everyone. Suotimiksi valittiin All linked filters (kohdat WMI Filters for Users ja
 WMI Filters for Computers). 
 
 Mallinnuksen yhteenveto:
+
 ![image](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ryhmakaytannot2/yhteenveto.JPG)
 
-Mallinnuksen tulokset:
+### Mallinnuksen tulokset
 
 ![image](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/ryhmakaytannot2/summary.JPG)
 

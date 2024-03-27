@@ -50,13 +50,17 @@ Sysprep Preparation Toolista valitsin "generalize" ja shutdown operations: Shutd
 
 ## 5. Mallikoneen käyttäminen muiden palvelinkoneiden pohjana
 
-Sysprepin ja koneen uudelleen käynnistymisen jälkeen sammutin WindowsServerTemplaten. Hyper-V-Managerissa valitsin koneen kohdalta Export. Tallensin tiedoston uuteen kansioon. Tiedoston loppu on .vhdx (=Virtual Hard Disk). 
-Kopioin tiedoston kahdeksi uudeksi tiedostoksi ohjeen mukaan.
+Sysprepin ja koneen uudelleen käynnistymisen jälkeen sammutin WindowsServerTemplaten. Hyper-V-Managerissa valitsin koneen kohdalta Export. 
 
+Tiedosto vietiin uutena tehtävään kansioon HyperV. Virtuaalikoneen kiintolevytiedosto siirtyy automaattisesti polkuun C:\Users\Admin123456\Desktop\HyperV\WindowsServerTemplate\Virtual Hard Disks.
 
-## Dokumentaatio domainista
+Tiedosto kopioitiin kahdeksi uudeksi koneeksi polkuun C:\Users\Admin123456\Desktop\HyperV\. Koneiden nimiksi tuli
+
+WindowsServer_DC (tuleva ohjauspalvelin) ja
+WindowsServer_FileServer (tuleva tiedostopalvelin).
+
+## Dokumentaatio domainista:
 
 ### Verkkokortti
 10.208.0.1
-
-### Template Admin tunnukset asetettu ohjeen mukaan
+Template Admin tunnukset asetettu ohjeen mukaan

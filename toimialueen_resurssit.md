@@ -45,7 +45,7 @@ Tehtävässä lisättiin siis käyttäjät
 - _Management-rooliin_ (esim. Prod Uction) tai
 - _Non-management -rooliin_ (esim. Prodnon Uction)
 
-Käyttäjät voivat kuulua useampiin ryhmiin kuin yllämainittuun. Esimerkiksi vaikka "Project1_responsible" tai "HR".
+Käyttäjät voivat kuulua useampiin ryhmiin kuin yllä mainittuun. Esimerkiksi vaikka "Project1_responsible" tai "HR".
 
 ## Organisaatioyksiköt
 
@@ -63,7 +63,7 @@ OK.
 Sekä Accounts -yksikön että Resources-yksikön alle luotiin kolme aliorganisaatioyksikköä samalla tekniikalla. Yllä luodut käyttäjät Users-säiliöstä siirrettiin käyttäjän nimiä vastaaviin yksiköihin.
 
 
-# Ote aktiivihakemiston rakeenteesta
+# Ote aktiivihakemiston rakenteesta
 
 Aktiivihakemiston LDAP (kansioprotokolla Lightweight Directory Access Protocol) -tietokannasta tehtiin lopuksi kysely, jonka tuloksena saadaan näkyviin aktiivihakemiston rakenne. 
 WindowsServer_DC:

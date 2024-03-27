@@ -77,7 +77,7 @@ Query -->
 opiskelijatunnus --> 
 Root of Search / Browse / Root of Query / oma toimialue (sammakkosuo)
 
-![image](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/toimialueen_resurssit/dbquery.JPG)
+![image](https://raw.githubusercontent.com/makumyyra/Windows-servers/main/md_images/toimialueen_resurssit/dbquery1.JPG)
 
 Query String: "(|(&(objectClass=User)(objectCategory=Person))(objectClass=Computer)(CN=Management)(CN=NonManagement)(objectClass=OrganizationalUnit))"
 
